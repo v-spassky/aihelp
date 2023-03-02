@@ -14,11 +14,11 @@ It uses the [OpenAI API](https://platform.openai.com/docs/api-reference/making-r
 
 ```bash
 wget -O - https://raw.githubusercontent.com/v-spassky/aihelp/main/distribution/install.sh \
-| bash /dev/stdin <folder-to-save-script-to> <shell-conf-file> <command-name>
+| bash /dev/stdin folder-to-save-script-to shell-conf-file command-name
 ```
-- `<folder-to-save-script-to>` - the script will be downloaded to this path. Make sure it is in your `$PATH`;
-- `<shell-conf-file>` - the script will add an alias to this file;
-- `<command-name>` - the name of the command that will be used to run the script.
+- `folder-to-save-script-to` - the script will be downloaded to this path. Make sure it is in your `$PATH`;
+- `shell-conf-file` - the script will add an alias to this file;
+- `command-name` - the name of the command that will be used to run the script.
 
 Example:
 

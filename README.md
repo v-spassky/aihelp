@@ -41,7 +41,7 @@ Afterwards, rerun your shell configuration file (e.g. `source ~/.zshrc`).
 
 ### Configuring
 
-Open the script with a text editor of your choice and set the `API_KEY` variable:
+Open the script with a text editor of your choice and set the `OPENAI_API_TOKEN` variable:
 
 `nano ~/.local/bin/aihelp.sh`
 

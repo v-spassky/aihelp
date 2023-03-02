@@ -55,4 +55,4 @@ Also, you can change the alias to something else if you wish:
 
 ### Usage
 
-- Print `aihelp` to get a suggestion on the last command you ran.
+Print `aihelp` to get a suggestion on the last command you ran.

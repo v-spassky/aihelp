@@ -35,7 +35,7 @@ Afterwards, rerun your shell configuration file (e.g. `source ~/.zshrc`).
 - Make it executable;
 - Add an alias to your `~/.bashrc`, `~/.zshrc` or whatever:
 
-`alias aihelp="aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\"`
+`alias aihelp="aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\""`
 
 - Make sure you have jq installed.
 
@@ -61,7 +61,7 @@ You might as well change all the other settings to your liking.
 
 Also, you can change the alias to something else if you wish:
 
-`alias whatever="aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\"`
+`alias whatever="aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\""`
 
 ### Usage
 

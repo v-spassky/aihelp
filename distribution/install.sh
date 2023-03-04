@@ -19,4 +19,4 @@ chmod +x "${WHERE_TO_INSTALL}aihelp.sh"
 # set up an alias fot the script
 echo >> $CONF_FILE
 echo -n "alias $COMMAND_ALIAS=\"" >> $CONF_FILE
-echo -n 'aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\"".' >> $CONF_FILE
+echo -n 'aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\""' >> $CONF_FILE

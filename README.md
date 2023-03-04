@@ -1,6 +1,6 @@
 # `aihelp`
 
-This is my own convenience tool for getting help from AI on the command line.
+A convenience tool for getting help from AI on the command line.
 
 It uses the [OpenAI API](https://platform.openai.com/docs/api-reference/making-requests) to get suggestions for the last command you ran.
 

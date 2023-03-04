@@ -4,7 +4,7 @@ A convenience tool for getting help from AI on the command line.
 
 It uses the [OpenAI API](https://platform.openai.com/docs/api-reference/making-requests) to get suggestions for the last command you ran.
 
-<img title="demo dif" src="assets/demo.gif" style="width:100%; max-width: 100%;">
+<img title="demo gif" src="assets/demo.gif" style="width:100%; max-width: 100%;">
 
 ### Installation
 

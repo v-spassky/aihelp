@@ -10,7 +10,7 @@ It uses the [OpenAI API](https://platform.openai.com/docs/api-reference/making-r
 
 ##### Automatic (Ubuntu, Debian only)
 
-*Note that this is deemed unsafe. Don't do this it you don't trust the author.*
+*Note that this is deemed unsafe. Don't do this if you don't trust the author.*
 
 ```bash
 wget -O - https://raw.githubusercontent.com/v-spassky/aihelp/main/distribution/install.sh \
@@ -37,7 +37,7 @@ Afterwards, rerun your shell configuration file (e.g. `source ~/.zshrc`).
 
 `alias aihelp="aihelp.sh \"\$(history | cut -c 8- | tail -n 1)\""`
 
-- Make sure you have jq installed.
+- Make sure you have `jq` installed.
 
 ### Configuring
 
